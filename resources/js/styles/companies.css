@@ -1,0 +1,57 @@
+table {
+  width: 100%;
+}
+
+tbody.table_body {
+  max-height: 50vh !important;
+  overflow: hidden !important;
+}
+
+.filter {
+  /* width: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+.filter select {
+  width: 200px;
+  margin-left: 16px;
+}
+
+.error-text {
+  color: red;
+}
+
+.pagination {
+  padding: 0 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.pagination li a {
+  height: 12px;
+  width: 12px;
+  margin: 0 12px;
+  background-color: #3b82f6;
+  padding: 6px;
+  border-radius: 6px;
+  color: #fff !important;
+}
+
+li.active-page a {
+  background-color: black;
+}
+
+.no-result {
+  width: 100%;
+  text-align: left !important;
+  padding: 24px 20px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* position: absolute; */
+}
